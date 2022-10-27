@@ -50,13 +50,13 @@
       <br>
       <div class="container mt-2 text-center">
         <div>
-        <a href="#" type="button" class="#">Pendaftaran</a>
+        <a href="{{ URL::to('mahasiswa/pendaftaran') }}" type="button" class="mt-2 btn btn-dark">Pendaftaran</a>
         </div>
         <div>
-        <a href="#" type="button" class="#">Ujian</a>
+        <a href="{{ URL::to('mahasiswa/ujian') }}" type="button" class="mt-2 btn btn-dark">Ujian</a>
         </div>
         <div>
-        <a href="#" type="button" class="#">Nilai</a>
+        <a href="{{ URL::to('mahasiswa/nilai') }}" type="button" class="mt-2 btn btn-dark">Nilai</a>
         </div>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
